@@ -5,11 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        header{
+            background-color: darkmagenta;
+            border-radius: 15px;
+
+        }
+        ul{
+             list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 1px;
+    
+            height: 50px;
+        }
+        #ali1{
+            margin-top: -5px;
+            height: 400px;
+            position: absolute;
+            width: 600px;
+        }
+        #ali2{
+            /* height: 400px; */
+            margin-top: -25px;
+            width: 100%;
+            height: 750px;
+        }
+        #o1{
+            height:200px ;
+            width:1800px;
+            margin-top: -5px;
+        }
+
+        .padding{
+         padding: 25px;
+         font-size: 30px;
+         /* width: ;    */
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+            color: blanchedalmond;
+        }
+        #dropdown-contant{
+            position: absolute;
+            display: none;
+
+        }
+        .dropdown:hover #dropdown-contant{
+            display: block;
+            /* color: black; */
+        }
+        .k1{
+            color: red;
+        }
+        .k2{
+            color: blueviolet;
+
+        }
+        .k3{
+            color: chartreuse;
+        }
+            
+            
+
+    </style>
 </head>
 <body>
-    <div>no</div>
-    <div>no</div>
-    <div>no</div>
-    <div>no</div>
+    <header>
+        <nav>
+            <ul class="padding">
+                <li class="dropdown">logo
+                    <div id="dropdown-contant">
+                        <a href="#">m3i</a>
+                        <a href="#">m3i</a>
+                        <a href="#">m3i</a>
+                        <a href="#">m3i</a>
+                        
+
+                    </div>
+
+                    <!-- <img class="dropdown-contant" src="./t4.jpg" alt=""> -->
+                </li>
+
+                <li class="k1">home</li>
+                <li class="k2">contant us</li>
+                <li class="k3">research</li>
+            </ul>
+            
+        </nav>
+    </header>
+    <img src="" alt="">    
+    <img id="ali1" src="https://images.unsplash.com/photo-1462986541242-6a4ac54d214f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+    <img id="ali2" src="https://media.istockphoto.com/photos/environment-concept-globe-glass-in-green-fores   t-with-sunlight-picture-id1309463809?s=612x612" alt="">
+    <img id="o1" src="./t3.png" alt="">
 </body>
 </html>
