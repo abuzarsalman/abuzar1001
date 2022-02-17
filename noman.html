@@ -10,7 +10,7 @@
             margin: 0px;
         }
         header{
-            background-color: darkmagenta;
+            background-color:black;
             border-radius: 15px;
 
         }
@@ -23,12 +23,13 @@
             height: 50px;
         }
         #ali1{
-            margin-top: -5px;
+            margin-top: -25px;
             height: 400px;
             position: absolute;
             width: 600px;
         }
         #ali2{
+            /* position: relative; */
             /* height: 400px; */
             margin-top: -25px;
             width: 100%;
@@ -53,11 +54,13 @@
         #dropdown-contant{
             position: absolute;
             display: none;
-
+            
         }
         .dropdown:hover #dropdown-contant{
+            background-color: greenyellow;
             display: block;
-            /* color: black; */
+            /* position: absolute; */
+            
         }
         .k1{
             color: red;
@@ -69,6 +72,22 @@
         .k3{
             color: chartreuse;
         }
+        #w1{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+        }
+        .w5{
+            color: darkslateblue;
+            bottom: top 400px;;
+        }
+        #s1{
+            position: absolute;
+            color:black;
+            margin-top: 200px;
+            margin-left: 950px;
+            margin-right: 23000px;
+        }
             
             
 
@@ -78,28 +97,32 @@
     <header>
         <nav>
             <ul class="padding">
-                <li class="dropdown">logo
+            <li class=k1>logo
+                
+                <!-- <img class="dropdown-contant" src="./t4.jpg" alt=""> -->
+            </li>
+            
+                <li class="dropdown">home 
+
                     <div id="dropdown-contant">
                         <a href="#">m3i</a>
                         <a href="#">m3i</a>
                         <a href="#">m3i</a>
-                        <a href="#">m3i</a>
+                        <a href="#">m32</a>
                         
-
+                        
                     </div>
-
-                    <!-- <img class="dropdown-contant" src="./t4.jpg" alt=""> -->
                 </li>
 
-                <li class="k1">home</li>
                 <li class="k2">contant us</li>
                 <li class="k3">research</li>
             </ul>
             
         </nav>
     </header>
-    <img src="" alt="">    
     <img id="ali1" src="https://images.unsplash.com/photo-1462986541242-6a4ac54d214f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+    <center>  <img id="w1" src="https://www.gamicacloud.com/images/director2.jpg" alt="">  </center>
+   <center><h1 id="s1">sir khurram</h1> </center>    
     <img id="ali2" src="https://media.istockphoto.com/photos/environment-concept-globe-glass-in-green-fores   t-with-sunlight-picture-id1309463809?s=612x612" alt="">
     <img id="o1" src="./t3.png" alt="">
 </body>
